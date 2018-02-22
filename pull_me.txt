@@ -1,1 +1,9 @@
 
+[create simple hello world component using react, webpack, babel installed and configured from scratch]
+### [21:19 - 21/02/2018]:
+* setup react from scratch
+* mkdir github-battle
+* create first react component
+* configure webpack
+* test npm run create
+
