@@ -7,6 +7,10 @@ class App extends React.Component {
 
     }
     render() {
-        return <h1>Ho</h1>;
+        return (
+            <div>
+                Hello World!
+            </div>
+        );
     }
 }
