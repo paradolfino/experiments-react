@@ -4,7 +4,7 @@ require('./index.css');
 
 class App extends React.Component {
     constructor(){
-
+        super();
     }
     render() {
         return (
