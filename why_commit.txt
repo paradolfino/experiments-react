@@ -1,0 +1,5 @@
+21:19 - 21/02/2018:pool[setup react from scratch]
+21:19 - 21/02/2018:pool[mkdir github-battle]
+21:19 - 21/02/2018:pool[create first react component]
+21:19 - 21/02/2018:pool[configure webpack]
+21:19 - 21/02/2018:pool[test npm run create]
