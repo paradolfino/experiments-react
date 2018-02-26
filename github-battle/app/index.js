@@ -4,6 +4,7 @@ require('./index.css');
 
 class App extends React.Component {
     render() {
+        var friends = 
         return (
             <div>
                 <h1>Friends</h1>
@@ -22,4 +23,11 @@ class App extends React.Component {
     }
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<App users={[
+    { name: 'Tyler', friend: true },
+    { name: 'Ryan', friend: true },
+    { name: 'Michael', friend: false },
+    { name: 'Mikenzi', friend: false },
+    { name: 'Jessica', friend: true },
+    { name: 'Dan', friend: false } ]} 
+  />, document.getElementById("app"));
