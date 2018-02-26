@@ -8,7 +8,7 @@ class App extends React.Component {
             return user.friend == true
         });
 
-        var nonfriends = this.props.users.filter((user) => {
+        var nonFriends = this.props.users.filter((user) => {
             return user.friend != true
         });
         return (
@@ -24,7 +24,7 @@ class App extends React.Component {
 
                 <h1> Non Friends </h1>
                 <ul>
-                    {nonfriends.map((user) => {
+                    {nonFriends.map((user) => {
                         return <li key={user.name}>{user}</li>
                     })}
                 </ul>
