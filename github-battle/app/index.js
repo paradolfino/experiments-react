@@ -15,7 +15,7 @@ class App extends React.Component {
 
                 <h1> Non Friends </h1>
                 <ul>
-                    {/*Create an <li> for every name in the list array who is NOT your friend*/}
+                    {}
                 </ul>
             </div>
         );
