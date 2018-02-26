@@ -16,7 +16,7 @@ class App extends React.Component {
                 <h1>Friends</h1>
                 <ul>
                     {friends.map((user) => {
-                        return <li key={user.name}>{user}</li>
+                        return <li key={user.name}>{user.name}</li>
                     })}
                 </ul>
 
@@ -25,7 +25,7 @@ class App extends React.Component {
                 <h1> Non Friends </h1>
                 <ul>
                     {nonFriends.map((user) => {
-                        return <li key={user.name}>{user}</li>
+                        return <li key={user.name}>{uuser.name}</li>
                     })}
                 </ul>
             </div>
