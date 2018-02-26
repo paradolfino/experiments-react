@@ -9,6 +9,12 @@ class App extends React.Component {
         }).map((user) =>{
             return <li>{user}</li>
         });
+
+        var nonfriends = this.props.users.filter((user) => {
+            return user.friend != true
+        }).map((user) =>{
+            return <li>{user}</li>
+        });
         return (
             <div>
                 <h1>Friends</h1>
