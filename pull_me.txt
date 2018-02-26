@@ -1,6 +1,5 @@
 
-[set up webpack dev server with hot reload]
-### 25/02/2018[19:53 - 20:45]:
-* install webpack-dev-server
-* push
+[practice .map and .filter]
+### 25/02/2018[20:47 - 20:56]:
+* practice map and filter
 
