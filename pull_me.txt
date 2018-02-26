@@ -1,1 +1,6 @@
 
+[set up webpack dev server with hot reload]
+### 25/02/2018[19:53 - 20:45]:
+* install webpack-dev-server
+* push
+
