@@ -1,1 +1,5 @@
 
+[practice .map and .filter]
+### 25/02/2018[20:47 - 20:56]:
+* practice map and filter
+
