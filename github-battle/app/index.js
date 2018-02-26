@@ -6,27 +6,27 @@ class App extends React.Component {
     render() {
         var friends = this.props.users.filter((user) => {
             return user.friend == true
-        }).map((user) =>{
-            return <li>{user}</li>
         });
 
         var nonfriends = this.props.users.filter((user) => {
             return user.friend != true
-        }).map((user) =>{
-            return <li>{user}</li>
         });
         return (
             <div>
                 <h1>Friends</h1>
                 <ul>
-                    {friends}
+                    {friends.map((user) => {
+                        return <li key={user.name}>{user}</li>
+                    })}
                 </ul>
 
                 <hr />
 
                 <h1> Non Friends </h1>
                 <ul>
-                    {nonfriends}
+                    {nonfriends.map((user) => {
+                        return <li key={user.name}>{user}</li>
+                    })}
                 </ul>
             </div>
         );
@@ -39,5 +39,5 @@ ReactDOM.render(<App users={[
     { name: 'Michael', friend: false },
     { name: 'Mikenzi', friend: false },
     { name: 'Jessica', friend: true },
-    { name: 'Dan', friend: false } ]} 
-  />, document.getElementById("app"));
+    { name: 'Dan', friend: false }]}
+/>, document.getElementById("app"));
