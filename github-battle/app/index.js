@@ -19,14 +19,14 @@ class App extends React.Component {
             <div>
                 <h1>Friends</h1>
                 <ul>
-                    {}
+                    {friends}
                 </ul>
 
                 <hr />
 
                 <h1> Non Friends </h1>
                 <ul>
-                    {}
+                    {nonfriends}
                 </ul>
             </div>
         );
