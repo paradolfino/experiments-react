@@ -4,7 +4,11 @@ require('./index.css');
 
 class App extends React.Component {
     render() {
-        var friends = 
+        var friends = this.props.users.filter((user) => {
+            return user.friend == true
+        }).map((user) =>{
+            return <li>{user}</li>
+        });
         return (
             <div>
                 <h1>Friends</h1>
