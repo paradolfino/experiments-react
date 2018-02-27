@@ -19,6 +19,12 @@ class Badge extends React.Component {
     }
 }
 
+Badge.propTypes = {
+    img: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired
+}
+
 ReactDOM.render(<Badge
         img="http://via.placeholder.com/150x150.png"
         name="viktharien"
