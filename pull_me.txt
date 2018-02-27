@@ -1,5 +1,5 @@
 
-[practice .map and .filter]
-### 25/02/2018[20:47 - 20:56]:
-* practice map and filter
+[wokr using proptypes]
+### 26/02/2018[20:52 - 21:18]:
+* work on proptypes
 
