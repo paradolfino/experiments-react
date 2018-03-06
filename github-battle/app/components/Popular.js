@@ -5,3 +5,5 @@ class Popular extends React.Component {
         return <div>Popular</div>;
     }
 }
+
+module.export = Popular;
