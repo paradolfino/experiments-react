@@ -3,7 +3,7 @@ var Popular = require('./Popular');
 class App extends React.Component {
     render() {
         return(
-            <Popular />
+            <Popular />;
         )
     }
 }
