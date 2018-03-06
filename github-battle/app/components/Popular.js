@@ -6,4 +6,4 @@ class Popular extends React.Component {
     }
 }
 
-module.export = Popular;
+module.exports = Popular;
