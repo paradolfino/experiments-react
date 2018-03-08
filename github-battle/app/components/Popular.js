@@ -1,6 +1,9 @@
 var React = require('react');
 
 class Popular extends React.Component {
+    constructor() {
+        super();
+    }
     render() {
         var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
         return (<ul className="languages">
