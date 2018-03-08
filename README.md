@@ -9,3 +9,5 @@ Changelog:
 ##### 26/02/2018: 20:52 - 21:18:pool[work on proptypes]
 
 ##### 05/03/2018: 20:43 - 20:55:pool[work on tab component]
+
+##### 07/03/2018: 20:29 - 20:57:pool[popular component]

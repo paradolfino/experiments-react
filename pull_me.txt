@@ -1,5 +1,5 @@
 
-[begin work on popular component]
-### 05/03/2018[20:43 - 20:55]:
-* work on tab component
+[create basic popular list component]
+### 07/03/2018[20:29 - 20:57]:
+* popular component
 
