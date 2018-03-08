@@ -22,7 +22,7 @@ class Popular extends React.Component {
                     {languages.map((lang)=>{
                         return (
                         <li 
-                            style={lang === this.state.selectedLanguage && { color: 'red' }}
+                            style={lang === this.state.selectedLanguage ? { color: 'red' } : null}
                             key={lang} 
                             onClick={this.updateLanguage.bind(null, lang)}>
                             {lang}
