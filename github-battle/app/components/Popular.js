@@ -20,7 +20,7 @@ class Popular extends React.Component {
         return (<ul className="languages">
                     {languages.map((lang)=>{
                         return <li key={lang} onClick={this.updateLanguage}>{lang}</li>;
-                    })}
+                    },this)}
                 </ul>);
     }
 }
