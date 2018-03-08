@@ -14,6 +14,7 @@ class Popular extends React.Component {
                 selectedLanguage: lang
             }
         });
+        console.log(this.state.selectedLanguage);
     }
     render() {
         var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
