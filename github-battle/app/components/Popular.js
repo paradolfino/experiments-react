@@ -3,7 +3,12 @@ var React = require('react');
 class Popular extends React.Component {
     render() {
         var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
-        return <div>Popular</div>;
+        return 
+            <ul>
+                {languages.map(function(item, index){
+                    return <li key={index}>{item}</li>;
+                })}
+            </ul>;
     }
 }
 
