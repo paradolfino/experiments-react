@@ -41,4 +41,9 @@ class Popular extends React.Component {
     }
 }
 
+SelectLanguage.propTypes = {
+    selectedLanguage: PropTypes.string.isRequired,
+    onSelect: PropTypes.func.isRequired;
+};
+
 module.exports = Popular;
