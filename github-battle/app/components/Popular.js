@@ -6,9 +6,9 @@ class SelectLanguage extends React.Component {
                     {languages.map((lang)=>{
                         return (
                         <li 
-                            style={lang === this.state.selectedLanguage ? { color: 'red' } : null}
+                            style={lang === this.props.selectedLanguage ? { color: 'red' } : null}
                             key={lang} 
-                            onClick={this.updateLanguage.bind(null, lang)}>
+                            onClick={this.props.selectLanguage.bind(null, lang)}>
                             {lang}
                         </li>
                     );
