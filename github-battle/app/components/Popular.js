@@ -2,7 +2,8 @@ var React = require('react');
 
 class SelectLanguage extends React.Component {
     render() {
-        return (<ul className="languages">
+        return (
+        <ul className="languages">
                     {languages.map((lang)=>{
                         return (
                         <li 
@@ -13,7 +14,7 @@ class SelectLanguage extends React.Component {
                         </li>
                     );
                     })}
-                </ul>);
+        </ul>);
     }
 }
 
