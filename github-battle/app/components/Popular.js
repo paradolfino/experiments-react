@@ -10,7 +10,7 @@ class SelectLanguage extends React.Component {
                         <li 
                             style={lang === this.props.selectedLanguage ? { color: 'red' } : null}
                             key={lang} 
-                            onClick={this.props.selectLanguage.bind(null, lang)}>
+                            onClick={this.props.onSelect.bind(null, lang)}>
                             {lang}
                         </li>
                     );
