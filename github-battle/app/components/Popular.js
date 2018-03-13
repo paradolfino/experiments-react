@@ -1,4 +1,5 @@
 var React = require('react');
+var PropTypes = require('prop-types');
 
 class SelectLanguage extends React.Component {
     render() {
