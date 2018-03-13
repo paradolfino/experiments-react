@@ -40,9 +40,8 @@ class Popular extends React.Component {
         return (
             <div>
                 <SelectLanguage 
-                    selectedLanguage={this.state.selectedLanguage
-                    onSelect={this.updateLanguage}
-                }/>
+                    selectedLanguage={this.state.selectedLanguage}
+                    onSelect={this.updateLanguage}/>
             </div>
         )
     }
