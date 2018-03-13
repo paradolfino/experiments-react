@@ -39,7 +39,7 @@ class Popular extends React.Component {
         var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
         return (
             <div>
-
+                <SelectLanguage selectedLanguage/>
             </div>
         )
     }
@@ -47,7 +47,7 @@ class Popular extends React.Component {
 
 SelectLanguage.propTypes = {
     selectedLanguage: PropTypes.string.isRequired,
-    onSelect: PropTypes.func.isRequired;
+    onSelect: PropTypes.func.isRequired
 };
 
 module.exports = Popular;
