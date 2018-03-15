@@ -1,5 +1,5 @@
 
-[create basic popular list component]
-### 07/03/2018[20:29 - 20:57]:
-* popular component
+[finish practice on stateless functional components]
+### 14/03/2018[20:04 - 20:16]:
+* continue work with stateless functional components
 
