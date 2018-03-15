@@ -1,7 +1,7 @@
 var React = require('react');
 var PropTypes = require('prop-types');
 
-var SelectLanguage = () => {
+function SelectedLanguage() {
     render() {
         var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
         return (
