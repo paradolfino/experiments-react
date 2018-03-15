@@ -11,3 +11,5 @@ Changelog:
 ##### 05/03/2018: 20:43 - 20:55:pool[work on tab component]
 
 ##### 07/03/2018: 20:29 - 20:57:pool[popular component]
+
+##### 14/03/2018: 20:04 - 20:16:pool[continue work with stateless functional components]
