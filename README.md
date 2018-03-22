@@ -15,3 +15,5 @@ Changelog:
 ##### 14/03/2018: 20:04 - 20:16:pool[continue work with stateless functional components]
 
 ##### 21/03/2018: 20:42 - 20:49:pool[install axios]
+
+##### 21/03/2018: 20:49 - 20:54:pool[implement axios]
