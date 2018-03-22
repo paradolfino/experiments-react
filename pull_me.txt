@@ -1,5 +1,1 @@
 
-[finish practice on stateless functional components]
-### 14/03/2018[20:04 - 20:16]:
-* continue work with stateless functional components
-
